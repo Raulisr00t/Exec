@@ -58,6 +58,6 @@ TinyCC Website -> https://bellard.org/tcc/
 libtcc API Reference -> https://repo.or.cz/tinycc.git/blob/HEAD:/libtcc.h
 
 ## ⚠️ Notes
-This example uses tcc_add_symbol() to expose standard C functions like printf to the JIT'd code.
+This example uses tcc_add_symbol() to expose standard C functions like printf to the JIT's code.
 
 Ensure your system libtcc.a and libtcc1.a are correctly linked if building manually.
