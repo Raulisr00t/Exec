@@ -45,7 +45,7 @@ x86_64-w64-mingw32-gcc exec.c -ltcc -o exec.exe
 ```bash
 Code :
 void run() {
-printf("Hello from JIT C!\n");
+printf("Hello from Raul!\nWhat do you think about JIT in C");
 }
 
 Hello from Raul!
