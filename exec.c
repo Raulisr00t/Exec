@@ -4,7 +4,7 @@
 #include <libtcc.h>
 
 void tcc_error(void *opaque, const char *msg) {
-    fprintf(stderr, "[TCC ERROR] %s\n", msg);
+    fprintf(stderr, "[TCC ERROR] %s\n", msg); // for Debugging print TCC ERRRORs
 }
 
 void exec(const char* code) {
@@ -78,7 +78,7 @@ void exec(const char* code) {
 }
 
 int main() {
-    const char* code = "printf(\"Hello From Raul ..\n What do you think about JIT in C?\");";
+    const char* code = "printf(\"Hello From Raul ..\n What do you think about JIT in C?\");"; // Actual C code for runtime execution
     exec(code);
 
     return 0;
