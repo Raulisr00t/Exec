@@ -70,7 +70,7 @@ void exec(const char* code) {
         return;
     }
 
-    run_func();
+    execute();
 
     free(memory);
  
