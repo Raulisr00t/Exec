@@ -78,7 +78,7 @@ void exec(const char* code) {
 }
 
 int main() {
-    const char* code = "printf(\"Hello From Raul ..\n What do you think about JIT simulation in C?\");"; // Actual C code for runtime execution
+    const char* code = "printf(\"Hello From Raul ..\n What do you think about JIT simulation in C?\");"; // Actual C code for compiled-time execution
     exec(code);
 
     return 0;
