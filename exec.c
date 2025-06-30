@@ -18,8 +18,8 @@ void exec(const char* code) {
     tcc_set_error_func(state, NULL, tcc_error);
     tcc_set_output_type(state, TCC_OUTPUT_MEMORY);
 
-    tcc_add_symbol(state, "printf", printf);
-    tcc_add_symbol(state, "exit", exit);
+    tcc_add_symbol(state, "printf", printf); // Add 'printf' for identify function at compiled time
+    tcc_add_symbol(state, "exit", exit); // Again Add 'exit' for identify function at compiled time
 
     char actual_code[4096];
 
